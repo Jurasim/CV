@@ -1,39 +1,88 @@
 body
 {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
     font-family: arial, helvetica, sans-serif;
 }
+
 .font
 {
-    color: rgb(30, 22, 102);
+    color: black;
     font-size: 25px;
     font-weight: bold;
     padding-left: 5px;
     border-top: 3px solid rgb(30, 22, 102);
+    border: 5px outset orange;
+    background-color: lightblue;    
+    text-align: center;
 }
+
 .font2
 {
     text-align: center;
-    color: rgb(30, 22, 102);
+    color: white;
     font-size: 25px;
     font-weight: bold;
     padding-left: 5px;
     text-decoration: underline;
 }
+
 table.limbistraine
 {
     border: 2px solid rgb(142, 200, 255);
     border-collapse: collapse;
+    color: white;
+    margin-left: 215px;
+    margin-right: 215px;
 }
+
 .limbistraine td
 {
     border: 2px solid rgb(142, 200, 255);
 }
+
 table.aliniaza
 {
     width: 75%;
     margin: 0 auto;
 }
+
 .imagine
 {
     text-align: left;
+}
+
+.div
+{
+    border: 5px outset orange;  
+}
+
+a:link 
+{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited 
+{
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active 
+{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
